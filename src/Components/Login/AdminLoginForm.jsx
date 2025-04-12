@@ -4,24 +4,20 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const AdminLoginForm = () => {
-
   let navigate = useNavigate();
-
-  useEffect(() => {
-    if(localStorage.getItem('user')){
-      navigate('/adminhomepage')
-    }
-
-    console.log("useeffect running");
-    
-  }, [navigate])
-  
 
   const [loginData, setLoginData] = useState({
     username: "",
     password: "",
   });
 
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    if (localStorage.getItem("user")) {
+      navigate("/adminhomepage");
+    }
+  }, [navigate]);
 
   function handleChange(e) {
     setLoginData({
@@ -30,9 +26,12 @@ const AdminLoginForm = () => {
     });
   }
 
-
   async function submitHandler(e) {
     e.preventDefault();
+
+    if (isLoading) return;
+
+    setIsLoading(true);
 
     try {
       const { data: admins } = await axios.get("https://bus-booking-app-data.onrender.com/admins");
@@ -46,17 +45,15 @@ const AdminLoginForm = () => {
       if (admin) {
         toast.success("Login Successful");
         localStorage.setItem("user", JSON.stringify({ ...admin, role: "admin" }));
-        navigate("/adminhomepage",
-          {
-            replace:true
-          }
-        );
+        navigate("/adminhomepage", { replace: true });
       } else {
         toast.warn("Incorrect login credentials");
       }
     } catch (error) {
       console.error("Error fetching admin data:", error);
       toast.error("Something went wrong. Please try again.");
+    } finally {
+      setIsLoading(false); // stop loading regardless of outcome
     }
   }
 
@@ -88,7 +85,10 @@ const AdminLoginForm = () => {
       <span className="flex justify-between items-center">
         <button
           type="submit"
-          className="bg-blue-500 hover:bg-blue-600 cursor-pointer py-[10px] font-semibold text-white px-6 rounded-2xl">
+          disabled={isLoading}
+          className={`${
+            isLoading ? "bg-blue-300 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-600"
+          } py-[10px] font-semibold text-white px-4 rounded-2xl`}>
           Login
         </button>
         <span className="font-semibold">
