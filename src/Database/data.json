@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": "ea58",
+      "username": "piyush",
+      "email": "piyush@gmail.com",
+      "password": "123"
+    }
+  ],
+  "admins": [
+    {
+      "id": "ae9e",
+      "username": "Piyush",
+      "email": "piyush@123.com",
+      "password": "123"
+    },
+    {
+      "id": "0968",
+      "username": "chussu",
+      "email": "chussu@gmail.com",
+      "password": "chussu123"
+    }
+  ],
+  "bus": [
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "BMTC Volvo",
+      "number": "KA01AB1234",
+      "from": "Bangalore",
+      "to": "Mysore",
+      "departure": "08:00",
+      "arrival": "11:00",
+      "seats": 40,
+      "type": "AC",
+      "description": "Luxury AC bus with WiFi and charging ports.",
+      "id": "d51c"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "KSRTC Airavat",
+      "number": "KA02CD5678",
+      "from": "Bangalore",
+      "to": "Chennai",
+      "departure": "22:00",
+      "arrival": "05:00",
+      "seats": 45,
+      "type": "AC",
+      "description": "Comfortable sleeper coach with reclining seats. (editted)",
+      "id": "67b2"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "KSRTC Ambaari",
+      "number": "KA03EF9012",
+      "from": "Bangalore",
+      "to": "Hyderabad",
+      "departure": "21:00",
+      "arrival": "06:00",
+      "seats": 50,
+      "type": "Non-AC",
+      "description": "Luxury bus with personal TV screens.",
+      "id": "7bca"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "Karnataka Sarige",
+      "number": "KA04GH3456",
+      "from": "Bangalore",
+      "to": "Pune",
+      "departure": "18:00",
+      "arrival": "06:00",
+      "seats": 42,
+      "type": "AC",
+      "description": "High-speed bus with onboard snacks.",
+      "id": "31f5"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "Orange Travels",
+      "number": "KA05IJ7890",
+      "from": "Bangalore",
+      "to": "Goa",
+      "departure": "19:30",
+      "arrival": "06:00",
+      "seats": 48,
+      "type": "AC",
+      "description": "Experience comfort and safety with our night travel service.",
+      "id": "7d83"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "Rajdhani Express",
+      "number": "KA06KL1234",
+      "from": "Bangalore",
+      "to": "Mangalore",
+      "departure": "18:00",
+      "arrival": "05:00",
+      "seats": 47,
+      "type": "AC",
+      "description": "Best-in-class sleeper buses for long-distance comfort.",
+      "id": "4d42"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "KPN Travels",
+      "number": "KA07MN5678",
+      "from": "Bangalore",
+      "to": "Vellore",
+      "departure": "09:30",
+      "arrival": "14:30",
+      "seats": 42,
+      "type": "Non-AC",
+      "description": "Affordable travel option for short routes.",
+      "id": "79c4"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "VRL Travels",
+      "number": "KA08OP9012",
+      "from": "Bangalore",
+      "to": "Mumbai",
+      "departure": "19:45",
+      "arrival": "10:00",
+      "seats": 50,
+      "type": "Non-AC",
+      "description": "Fully air-conditioned sleeper bus with charging ports.",
+      "id": "40d6"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "Green Line Travels",
+      "number": "KA09QR3456",
+      "from": "Bangalore",
+      "to": "Coimbatore",
+      "departure": "11:30",
+      "arrival": "16:00",
+      "seats": 36,
+      "type": "AC Seater",
+      "description": "Daytime express bus with comfortable seating.",
+      "id": "e44f"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "City Express",
+      "number": "KA10ST7890",
+      "from": "Bangalore",
+      "to": "Tirupati",
+      "departure": "16:30",
+      "arrival": "21:00",
+      "seats": 40,
+      "type": "Sleeper AC",
+      "description": "Premium bus with luxury sleeper berths.",
+      "id": "f912"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "SRS Travels",
+      "number": "KA11UV1234",
+      "from": "Bangalore",
+      "to": "Madurai",
+      "departure": "20:15",
+      "arrival": "05:45",
+      "seats": 50,
+      "type": "Luxury AC",
+      "description": "Recliner seats and onboard entertainment.",
+      "id": "084d"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "Ashok Travels",
+      "number": "KA12WX5678",
+      "from": "Bangalore",
+      "to": "Trichy",
+      "departure": "09:00",
+      "arrival": "18:00",
+      "seats": 45,
+      "type": "Non-AC",
+      "description": "Luxurious interiors with free snacks.",
+      "id": "0540"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "Gokul Travels",
+      "number": "KA13YZ9012",
+      "from": "Bangalore",
+      "to": "Salem",
+      "departure": "12:45",
+      "arrival": "18:15",
+      "seats": 38,
+      "type": "Non-AC",
+      "description": "Comfortable seats with ample legroom.",
+      "id": "553f"
+    },
+    {
+      "thumbnail": "https://images.indianexpress.com/2020/12/BMTC-AC-bus.jpeg?w=640",
+      "name": "BMTC Airport Shuttle",
+      "number": "KA14BC3456",
+      "from": "Bangalore",
+      "to": "Bangalore Airport",
+      "departure": "Every 30 minutes",
+      "arrival": "Varies",
+      "seats": 35,
+      "type": "AC",
+      "description": "Convenient airport shuttle with luggage space.",
+      "id": "aaa9"
+    }
+  ]
+}
